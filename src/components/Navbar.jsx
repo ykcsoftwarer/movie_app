@@ -20,8 +20,8 @@ const Navbar = () => {
                         </>
                     ) : (
                         <>
-                        <button onClick={() => navigate(/login)} className="ms-2 btn btn-outline-light">Login</button>
-                        <button onClick={() => navigate(/register)} className="ms-2 btn btn-outline-light">Register</button>
+                        <button onClick={() => navigate("/login")} className="ms-2 btn btn-outline-light">Login</button>
+                        <button onClick={() => navigate("/register")} className="ms-2 btn btn-outline-light">Register</button>
                         </>
                     )
                 }

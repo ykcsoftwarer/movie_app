@@ -1,15 +1,11 @@
-import './App.css'
-import Register from '../src/pages/Register'
-import AppRouter from './router/AppRouter';
-
+import './App.css';
+import AppRouter from './router/AppRouter'
 
 function App() {
   return (
-
-    <AppRouter/>
-    
-
-    
+    <div className="App">
+      <AppRouter />
+    </div>
   );
 }
 
